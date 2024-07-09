@@ -1,4 +1,4 @@
-<span style="color: red;">**Wait for a few seconds for the model to load fully on the [HandHunt Deployment](https://hand-hunt.vercel.app/) page before use** </span>
+<span style="color: red;"> **Wait for a few seconds for the model to load fully on the [HandHunt Deployment](https://hand-hunt.vercel.app/) page before use** </span>
 # HandHunt 🖐️🎯
 
 HandHunt is a web application showcasing real-time hand detection and tracking using TensorFlow.js and the HandPose model. It aims to demonstrate the capabilities of hand tracking for gesture recognition, sign language interpretation, and interactive applications.
