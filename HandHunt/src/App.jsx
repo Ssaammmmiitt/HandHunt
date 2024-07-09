@@ -3,7 +3,8 @@ import Webcam from "react-webcam";
 import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import "./App.css";
-import { drawHand } from "./utilities";
+import { drawHand } from "./Utilities/utilities";
+import ParticleBg from "./Components/ParticleBg";
 
 function App() {
   const [dimensions, setDimensions] = useState(getResponsiveStyles());
@@ -106,6 +107,7 @@ function App() {
       ref={canvasRef}
       style={dimensions}
     />
+    <ParticleBg/>
       </div>
     </>
   );
